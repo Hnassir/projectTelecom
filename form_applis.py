@@ -65,9 +65,10 @@ res=predict(new_data)
 if submit:
     if res==1:
         st.warning("clients' churn probability is high")
-    if res==0 :
+    elif res==0 :
         st.success("clients' churn probability is low")
-
+    else :
+        st.write('Please fill the form')
 
 
 
