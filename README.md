@@ -29,3 +29,5 @@ A short description of the project.
 
 --------
 
+#===== streamlit apllication
+#https://projecttelecom-c9nuvbnx9wd9rjma9zwvt9.streamlit.app/
