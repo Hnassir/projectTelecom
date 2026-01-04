@@ -9,7 +9,7 @@ from sklearn.preprocessing import LabelEncoder
 
 #====================
 
-data=pd.read_csv('data/expresso_feature_engineering.csv')
+data=pd.read_csv('data/expresso_feature_engineering.zip',compression='zip')
 
 #=====================
 
@@ -26,4 +26,4 @@ for col in catg_cols:
 
 #================================
 
-data.to_csv('data/expresso_encoded.csv',index_label=False)
+data.to_csv('data/expresso_encoded.zip',index_label=False,compression='zip')

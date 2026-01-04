@@ -10,7 +10,7 @@ import joblib
 
 #============================
 
-data=pd.read_csv('data/expresso_encoded.csv')
+data=pd.read_csv('data/expresso_encoded.zip',compression='zip')
 
 #===================================
 

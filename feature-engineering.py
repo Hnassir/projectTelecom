@@ -3,7 +3,7 @@ import pandas as pd
 
 #===========================
 
-data=pd.read_csv('data/Expresso_churn_dataset.csv')
+data=pd.read_csv('data/Expresso_churn_dataset.zip',compression='zip')
 
 #====================
 
@@ -17,5 +17,5 @@ data.drop(columns=['user_id','ARPU_SEGMENT'],inplace=True,axis=1)
 
 #===========
 
-data.to_csv('data/expresso_feature_engineering.csv',index_label=False)
+data.to_csv('data/expresso_feature_engineering.zip',index_label=False,compression='zip')
 
